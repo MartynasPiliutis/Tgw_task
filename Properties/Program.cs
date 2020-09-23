@@ -15,7 +15,7 @@ namespace the_TGW_project
         static readonly string projectBaseConfiguration =  @"C:\Users\kooky\Documents\DOTNET\TGW_task\tgw_project\the_TGW_project\the_TGW_project\base_config\Base_Config.txt";
         static void Main(string[] args)
         {
-            Dictionary<string, dynamic> Configuration = new Dictionary<string, dynamic>();
+            Dictionary<string, dynamic> Configuration = new Dictionary<string, dynamic>(); //Creating dictionary for configurations
             Start:
                 startMainMenu(Configuration);
             Console.WriteLine("Press enter to continue...");
